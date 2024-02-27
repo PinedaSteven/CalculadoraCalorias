@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url('comida-png.jpg');
+    background-size: cover; /* Para ajustar la imagen al tamaño del cuerpo */
+    background-position: center; /* Para centrar la imagen */
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container div {
+    margin-bottom: 10px;
+  }
+  
+  .container label {
+    display: inline-block;
+    width: 120px;
+  }
+  
+  .container input[type="number"],
+  .container select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #929419;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .container button:hover {
+    background-color: #929419;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  
